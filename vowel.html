@@ -1,0 +1,24 @@
+<script type="text/javascript">
+
+var str = prompt("Enter any Phrase or word");
+	
+if (str=="")
+
+			{
+				document.write("Please Enter Phrase or word !");
+			}
+
+	for (var i = 0; i<str.length; i++) {
+			
+			 if (str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u") {
+				
+				continue;
+			}
+			
+			document.write(str[i]+"<br>");
+		}
+
+
+
+
+</script>
