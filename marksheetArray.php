@@ -20,7 +20,7 @@ $marks=[
 	     ]
 
 	 ];
-echo"<table border='2px' cellpadding='5px' cellspacing='0'>
+echo"<table border='2px' align='center' cellpadding='5px' cellspacing='0'>
   <tr>
        <th>Student name</th>
        <th>Physics</th>
